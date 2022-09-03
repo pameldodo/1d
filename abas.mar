@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+  <title>
+    Mar
+  </title>
+  
+  <meta charset="UTF-8" />
+<style type="text/css">
+
+    .abas {
+    position: relative;
+    }
+    .aba {
+    display: inline;
+    }
+    .aba > a {
+    	
+    float: left;
+    padding: 0.5em 1em;
+    background: linear-gradient(#FFF, #EEE);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #CCC #CCC #FFF;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    }
+    .aba:not(:target) a {
+    border-bottom: 0 none;
+    }
+    .aba:target a, a:hover {
+    background: white;
+    }
+    .conteudo {
+    position: absolute;
+    left: 0;
+    
+    top: calc(3em + 4px); /* altura do link + bordas */
+    
+    z-index: -7;
+    border: 1px solid #CCC;
+    background-color: white;
+    }
+    .aba:target .conteudo {
+    z-index: -1;
+    }
+  </style>
+ 
+</head>
+<body>
+  <!-- Criando a listagem -->
+<ul class="abas">
+    <!-- Aqui, criação da primeira aba -->
+    <li class="aba" id="aba-1">
+     <a href="#aba-1">Aba1</a>
+<section class="conteudo">Lixo no mar é um problema enfrentado à muito tempo, mas, conforme os anos isto foi aumentando ou crescendo e fazendo com que o mar ficasse poluído. Mesmo que seja óbvio, muitas pessoas ainda, cometem esse problema, não só no mar, também jogam lixo na rua, e os bueiros assim ficam entupidos. 
+</section></li>
+<!-- Aqui, criação da segunda aba -->
+    <li class="aba" id="aba-2">
+     <a href="#aba-2">Aba 2</a> 
+<section class="conteudo"> Os lugares aonde são encontrado lixos são nas ruas, e diversos outros lugares, não só nos mares, mas o índice de lixo aumentou muito conforme o tempo nos mesmos. Mas, também encontramos em rios, etc.</section></li>
+<!-- Aqui, criação da terceira aba -->
+    <li class="aba" id="aba-3">
+     <a href="#aba-3">Aba 3</a> 
+<section class="conteudo"> Para que as pessoas não façam tanto esse ato, devemos nos promover e fazer uma campanha, pois a saúde de nosso planeta também importa, a diversos motivos pelas quais o clima as vezes também muda, e essa pode ser uma das razões. Tentar não usar tantos resíduos que contém plástico, pois o plástico demora a se dissolver e arranjar outro meio que seja mais saudável. Colocar câmeras perto dos mares, principalmente em pontos extremos, e quem for jogar, leva uma multa. Obviamente, não só multar quem joga no mar, e sim também os que jogam nas ruas, aliás, o saco de lixo ou cestas estão ai para nos ajudar. </section></li>
+</ul>
+</body>
+</html>
